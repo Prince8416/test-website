@@ -1,0 +1,436 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 248, 248);
+  height: 100%;
+  width: 100%;
+}
+
+.nav {
+  height: 80px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.links {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+}
+.nav .btn {
+  height: 40px;
+  width: 100px;
+  color: rgb(14, 9, 9);
+  border-radius: 8px;
+  background-color: blue;
+  
+}
+
+
+.first-content {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+
+  background-image: linear-gradient(
+    to bottom left,
+    rgb(220, 220, 238) 10%,
+    rgb(250, 250, 255) 70%
+  );
+}
+
+.write {
+  height: 600px;
+  width: 100%;
+}
+.img {
+  height: 600px;
+  width: 100%;
+}
+.img img {
+  margin-top: 15%;
+  height: 400px;
+  width: 400px;
+  margin-left: 20%;
+}
+
+.write .smal {
+  margin: 30% 10% 3%;
+}
+.write .large {
+  margin-left: 10%;
+  width: 60%;
+}
+.write .medium {
+  margin-left: 10%;
+  width: 70%;
+}
+.write .Get {
+  margin-left: 10%;
+  margin-top: 10%;
+  height: 40px;
+  width: 100px;
+  border-radius: 8px;
+  background-color: blue;
+  color: white;
+}
+  
+
+.head {
+  font-size: larger;
+  margin-left: 40%;
+  margin-bottom:;
+  margin-top: 5%;
+}
+
+.service {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  justify-content: space-between;
+  
+  margin-top: 5%;
+  gap: 20px;
+}
+
+.box:nth-child(even) {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(220, 220, 238) 10%,
+    rgb(250, 250, 255) 50%
+  );
+}
+.box:nth-child(odd) {
+  background-image: linear-gradient(
+    to top left,
+    rgb(220, 220, 238) 10%,
+    rgb(250, 250, 255) 50%
+  );
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  border: px solid;
+   margin-top: 30px;
+  margin: auto;
+  border-radius: 8px;
+}
+.one,
+.three,
+.five {
+  margin-top: 50%;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    justify-content: space-between;
+  
+  margin-top: 10%;
+  gap: 20px;
+
+}
+
+.boxes{
+        height: 300px;
+        width: 300px;
+        background: #f1f1f1;
+        margin: auto;
+        border-radius: 8px;
+}
+.boxes .image{
+  border-radius: 10px;
+  margin-top: 70px;
+  height: 150px;
+  margin-left: 12px;
+}
+
+.rating {
+display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    justify-content: space-between;
+  
+  margin-top: 5%;
+  gap: 20px;
+}
+
+.rating .boxe{
+  height: 100px;
+  width: 200px;
+  margin: auto;
+  border: 1px solid;
+  border-radius: 5px;
+  background: #fffefe;
+  
+}
+.rating .boxe h1{
+  margin-left: 30px;
+  margin-top: 5px;
+}
+.rating .boxe h5{
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.proven{
+  display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    justify-content: space-between;
+   
+  
+  gap: 20px;
+}
+
+
+.heading{
+  
+  margin-top: 10%;
+  margin-left: 40%;
+  margin-bottom: 10%;
+}
+.proven> .three{
+  height: 200px;
+  width: 400px;
+  background-colorred;
+  margin: auto;
+  border-radius: 5px;
+  border-right: 5px solid blue;
+  border-width: 3px 4px 8px;
+  
+}
+
+.picture{
+  height: 450px;
+  width: 800px;
+  align-items: center;
+  margin-top: 5%;
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 60%;
+  
+  
+  
+  
+}
+
+.pic{
+  display: flex;
+  
+  margin-right: 200px;
+  margin-top: 100px;
+  border-radius: 10%;
+  height: 300px;
+  width: 400px;
+  position: absolute;
+
+
+  
+
+}
+
+.picture{
+  z-index: ;
+}
+
+#im0{
+  border-radius: 50%;
+  border: 2px solid;
+  height: 50px;
+  width: 50px;
+  margin-left: 2px;
+  margin-top: 20px;
+  
+  position: absolute;
+  
+
+
+}
+#im1{
+  border-radius: 50%;
+  border: 2px solid;
+  height: 100px;
+  width: 1 00px;
+  position: absolute;
+  margin-left: 40px;
+  z-index: 2;
+  
+  
+
+}#im2{
+  border-radius: 50%;
+  border: 2px solid;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  margin-left: 105px;
+  margin-top: 20px;
+  
+  
+
+}
+
+.whole{
+  margin-top: 60px;
+  margin-left: 140%;
+  
+}
+
+  
+.simply{
+  margin-top: 200px;
+  height: 10px;
+  width: 450px;
+  position: absolute;
+  color: #ebe5e5;
+  margin-left: 100%;
+}
+
+.small{
+  margin-top: 250px;
+  height: 10px;
+  width: 450px;
+  position: absolute;
+  color: #ebe5e5;
+  margin-left: 100%;
+}
+.btm{
+  margin-top: 320px;
+  height: 10px;
+  width: 450px;
+  position: absolute;
+  color: #ebe5e5;
+  margin-left: 120%;
+  display: flex;
+  gap: 50px;
+  
+}
+
+
+#watch{
+  background: transparent;
+  color: white;
+  height: 40px;
+  width: 100px;
+  border: 2px solid white;
+  border-radius: 5px ;
+}
+.star{
+  background-color: blue;
+  color: white;
+  height: 40px;
+  width: 100px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.tren{
+  margin-top: 650px;
+  height: 50px;
+  width: 200px;
+  margin-left: 5%;
+}
+
+.list{
+  display: flex;
+  margin-left: 0%;
+}
+
+.righth{
+  display:flex;
+  margin-left: 700px;
+  margin-top: -70px;
+  gap: 100px;
+
+  }
+  .right{
+    display: flex;
+    margin-left: 700px;
+    margin-top: 10px;
+    gap: 200px;
+  }
+  .icon{
+    display: none;
+  }
+
+  
+
+  
+
+@media (max-width:768px) {
+
+  .links{
+    display: none;
+  }
+  .nav {
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+  background-color: aqua;
+    
+  }
+  .icon{
+    display: block;
+    
+  }
+
+  .showData{
+    display: flex;
+    flex-direction: column;
+  }
+  .links {
+    
+    
+    flex-direction: column;
+  }
+  
+  .nav .btn {
+    height: 40px;
+    width: 100px;
+    color: rgb(14, 9, 9);
+    border-radius: 8px;
+    background-color: blue;
+    display: none;
+  }
+  .logo{
+    margin-bottom: 100%;
+  }
+
+  .img {
+  height: 600px;
+  width: 100%;
+}
+.img img {
+  margin-top: 15%;
+  height: 300px;
+  width: 300px;
+  margin-left: 2%;
+}
+ 
+
+  
+}
+@media(max-width:490px){
+  .first-content {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+  background-image: linear-gradient(
+    to bottom left,
+    rgb(220, 220, 238) 10%,
+    rgb(250, 250, 255) 70%
+  );
+}
+}
